@@ -2,6 +2,10 @@
 .header-background{
     background-color: #264653;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 /* button style */
 .btn-color{
     background-color: #E76F51;
@@ -43,4 +47,8 @@ span{
     background-color: #d8f0f4;
     padding: 15px 20px;
     border-radius: 100%;
+}
+/* footer-style */
+.footer-color{
+    background-color: #0B0D17;
 }

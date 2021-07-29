@@ -22,9 +22,45 @@
 
 <body>
     <!-- header section -->
-    <header>
+    <header class="header-background">
+
+        <!-- navbar start -->
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">HONDA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto gap-lg-5 gap-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn-color  text-white">
+                                    Login
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
         <!-- top section start -->
-        <section class="header-background py-5">
+        <section class=" py-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="text-white col-lg-6 p-4">
@@ -51,11 +87,11 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-dark">
-                                        <strong>Are you sure to purchase this Bike?</strong><br> <strong>Please read our Terms & Conditions:</strong> <br>
+                                        <strong>Are you sure to purchase this Bike?</strong><br> <strong>Please read our
+                                            Terms & Conditions:</strong> <br>
                                         Welcome to Honda CBR. We are an online commercial center and these are the terms
                                         and conditions overseeing your entrance and utilization of
-                                        Honda CBR alongside its related sub-areas, destinations, portable application,
-                                        administrations and apparatuses (the
+                                        Honda CBR alongside its related sub-areas, and apparatuses (the
                                         "Website"). By utilizing the Site, you thusly acknowledge these terms and
                                         conditions (counting the connected data in this) and speak
                                         to that you consent to conform to these terms and conditions (the "Client
@@ -272,7 +308,7 @@
             <div class="text-center my-5">
                 <h1 class="fw-bold">Gallery</h1>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide w-75 m-auto " data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide w-lg-75 m-auto" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -289,22 +325,22 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/gallery1.jpg" class="d-block w-100" alt="...">
+                        <img src="images/gallery1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/gallery2.jpg" class="d-block w-100" alt="...">
+                        <img src="images/gallery2.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/gallery3.jpg" class="d-block w-100" alt="...">
+                        <img src="images/gallery3.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/gallery4.jpg" class="d-block w-100" alt="...">
+                        <img src="images/gallery4.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/gallery5.jpg" class="d-block w-100" alt="...">
+                        <img src="images/gallery5.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/gallery6.jpg" class="d-block w-100" alt="...">
+                        <img src="images/gallery6.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -341,8 +377,8 @@
         </section>
     </main>
     <!-- main section end -->
-    <footer>
-
+    <footer class="footer-color pt-5">
+        <p class="text-center text-white mb-0">© 2021 bike. All rights reserved</p>
     </footer>
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
