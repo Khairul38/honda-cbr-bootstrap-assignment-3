@@ -1,0 +1,40 @@
+.header-background{
+    background-color: #264653;
+}
+.btn-color{
+    background-color: #E76F51;
+    font-weight: 500;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    width: 140px;
+    height: 44px;
+}
+.collection-color{
+    color: #E76F51;
+    font-weight: 600;
+    font-size: 14px;
+}
+.grayscal-bike img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+span{
+    color: #E76F51;
+}
+.icon-color{
+    color: #E76F51;
+}
+.client-img{
+    width: 149px;
+    height: 149px;
+}
+.client-text{
+    color: #23A6F0;
+}
+.bell{
+    color: #6ec5d2;
+    background-color: #d8f0f4;
+    padding: 15px 20px;
+    border-radius: 100%;
+}
