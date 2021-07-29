@@ -1,6 +1,8 @@
+/* header style */
 .header-background{
     background-color: #264653;
 }
+/* button style */
 .btn-color{
     background-color: #E76F51;
     font-weight: 500;
@@ -15,23 +17,27 @@
     font-weight: 600;
     font-size: 14px;
 }
+/* grayscel style */
 .grayscal-bike img{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+/* text style */
 span{
     color: #E76F51;
 }
-.icon-color{
-    color: #E76F51;
-}
+/* client style */
 .client-img{
     width: 149px;
     height: 149px;
 }
+.icon-color{
+    color: #E76F51;
+}
 .client-text{
     color: #23A6F0;
 }
+/* notification bell style */
 .bell{
     color: #6ec5d2;
     background-color: #d8f0f4;
